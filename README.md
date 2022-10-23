@@ -1,5 +1,5 @@
 # Conversor-de-temperatura-Fahrenheit-Celsius
-Esse é um projeto feito em JavaScript, um simples conversor de temperatura  Fahrenheit/Celsius ou virse e versa.
+Esse é um projeto feito em #JavaScript, um simples conversor de temperatura  Fahrenheit/Celsius ou virse e versa.
 
 ## Imagem do projeto
 <div align="center">
@@ -24,4 +24,5 @@ Autor: Roberta Lacerda
 
 https://www.linkedin.com/in/roberta-lacerda/
 
+Auxiliado por Feature Code, @featurecode_
 
