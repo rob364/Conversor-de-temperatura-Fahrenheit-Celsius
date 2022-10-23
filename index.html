@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graus Fahrenheit</title>
+    <style>
+
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background: -webkit-linear-gradient(to left, #521c07, #555236);
+            background: linear-gradient(to left, #050401, #3f3906);
+            }
+
+        #container{
+            margin: 0 auto;
+            width: auto;
+            display: block;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+            
+            
+        }
+
+        #convert {
+            margin-top:5%;
+            background-color: #33704a;
+        }
+        #clear {
+            margin-top:5%;
+            background-color: #ca1c1c;
+        }
+
+        #convert:hover {
+            background-color: #bcc768;
+        }
+        h1 {
+            font-family:  Arial, sans-serif;
+            color: #aeb5bb;
+        }
+        input {
+            display: flexbox;
+            padding: 40px;
+            margin-top: 5px;
+            font-size: 2em;
+            color: #f4a55a;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ::-webkit-input-placeholder {
+            color: #ccc;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            color: #ccc;  
+        }
+        ::-moz-placeholder {  /* Firefox 19+ */
+            color: #ccc;  
+        }
+        :-ms-input-placeholder {  
+            color: #ccc;  
+        }
+        button {
+            padding: 30px;
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Conversor de temperatura</h1>
+
+        <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+
+        <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+
+        <button id="convert">Conversor</button>
+        <button id="clear">Cancelar</button>
+    </div>
+    <script src="conversor.js"></script>
+</body>
+</html>
