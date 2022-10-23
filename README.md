@@ -11,7 +11,7 @@ Esse é um projeto feito em JavaScript, um simples conversor de temperatura  Fah
 
 ``` bash
 # clonar repositorio
-git clone 
+git clone https://github.com/rob364/Conversor-de-temperatura-Fahrenheit-Celsius
 
 # entrar na pasta do projeto
 
